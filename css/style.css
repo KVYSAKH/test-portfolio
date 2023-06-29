@@ -1,0 +1,323 @@
+/* css rest */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2D2C2C;
+	
+}
+html {
+	scroll-behavior: smooth;
+
+}
+
+/* ----------------------------------- Home starting ---------------------------------*/
+
+/*----------------------------------------- menu --------------------------------------*/
+
+.menu {
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+
+}
+span {
+	font-size: 20px;
+	font-weight: bold;
+	color: #41FFF4;
+	margin: 5px 0px 0px;
+	
+
+	
+}
+
+#c a{
+	color: #41FFF4;
+	
+
+}
+.links li {
+
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 5px 0px 0px;
+	
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+
+	
+
+}
+.bt {
+	padding: 10px 18px;
+	border: none;
+	background-color:#41FFF4  ;
+	border-radius: 0px 0px 20px 20px;
+	font-weight: bold;
+
+
+}
+.bt:hover {
+	background-color: #7EEB57;
+}
+
+
+/*-------------------------------- end menu --------------------------- */
+
+
+
+.me {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+
+
+
+
+}
+.content {
+	width: 550px;
+	height: 500px;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+
+
+
+}
+.content p {
+	letter-spacing: 1px;
+}
+h1 span {
+	font-size: 30px;
+	color:  #7EEB57;
+
+}
+
+p span{
+	color:#7EEB57;
+	margin: 0;
+	letter-spacing: 2px;
+
+
+}
+
+
+.btt {
+	margin: 15px 0px;
+	background-color: white;
+	font-weight: bold;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 0px 0px 20px 20px;
+}
+.btt:hover {
+	background-color: #41FFF4;
+}
+
+
+
+.fa-arrow-right:hover {
+	
+	background-color: #7EEB57;
+}
+
+
+
+
+/* ----------------------------------- message section starting ----------------------*/
+.message-section {
+	
+	
+
+
+}
+.message-bt {
+	background-color: #41FFF4;
+
+}
+
+.message-box {
+	display: flex;
+	flex-direction: column;
+
+	
+
+}
+.message {
+	background-color: #5a595b;
+	width: 100%;
+	height: 200px;
+	padding: 5px 0px;
+
+}
+
+.message textarea {
+	margin: 5px 0px 0px;
+	outline: none;
+	height: 100px;
+
+}
+.message button {
+
+	margin: 15px 0px;
+	padding: 5px 10px;
+	background-color: #41FFF4;
+	border-radius: 0px 0px 20px 20px;
+	border: none;
+
+
+}
+
+
+/* ----------------------------------- end message section  ----------------------*/
+
+
+/* ----------------------------------- profile  starting ----------------------*/
+
+
+.profile {
+	width: 550px;
+	height: 500px;
+	position: relative;
+	flex-flow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.profile .profile-photo {
+	width: 350px;
+	border-radius: 50%;
+	
+
+}
+
+
+.logos {
+	height: 50px;
+}
+
+
+.html {
+	position: absolute;
+	top: 85px;
+	padding: 25px;
+	height: 90px;
+	border-radius: 50%;
+	border: 2px solid #41FFF4;
+
+}
+
+
+.css {
+	position: absolute;
+	left: 75px;
+	height: 70px;
+	padding: 15px;
+	border-radius: 50%;
+	border: 2px solid #41FFF4;
+
+}
+
+
+.js {
+	position: absolute;
+	right: 75px;
+	padding: 20px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid #41FFF4;
+
+}
+
+/* ----------------------------------- end  profile  starting ----------------------*/
+
+
+/* ----------------------------------- social links  starting ----------------------*/
+
+
+
+.social {
+	width: 50px;
+	height: 150px;
+	background-color: #41FFF4;
+	position: fixed;
+	right: 2px;
+	top: 370px;
+	border-radius: 30px 0px 0px 30px;
+	
+}
+
+
+.social-links {
+
+	width: 30px;
+	height: 120px;
+	background-color: #5a595b;
+	right: 3px;
+	border-radius: 20px 0px 0px 20px;
+
+	margin: 13px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+
+
+.fa {
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.fa-github:hover{
+	background-color: black;
+
+}
+
+.fa-envelope:hover{
+	background-color: red;
+
+}
+
+.fa-facebook-official:hover {
+	background-color: blue;
+
+}
+
+.fa-instagram:hover {
+	background-color: #ee2a7b;
+
+}
+
+.fa-linkedin-square:hover {
+	background-color: #774be1;
+
+}
+/* --------------------------------- end social links  starting ----------------------*/
+
+
+
+/*------------------------------------------------- End Home -------------------------------- */
+
+
