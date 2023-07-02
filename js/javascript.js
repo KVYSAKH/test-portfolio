@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $(".message-box").toggle(2000);
     $(".html,.css,.js").slideUp(1000).slideDown(1000);
-    $("p").hide(3000);
+    $("p").hide(2000);
 
 
 	});
@@ -24,7 +24,7 @@ $(document).ready(function(){
 	$("#send").click(function(){
 		
 		$(".message-box").slideUp(1000);
-		$("p").show(1000);
+		$("p").show(2000);
 
 
 
